@@ -1,0 +1,14 @@
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.AssemblyInfoInputs.cache
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.AssemblyInfo.cs
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.csproj.CoreCompileInputs.cache
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\bin\Debug\net9.0\Desafio1.exe
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\bin\Debug\net9.0\Desafio1.deps.json
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\bin\Debug\net9.0\Desafio1.runtimeconfig.json
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\bin\Debug\net9.0\Desafio1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\bin\Debug\net9.0\Desafio1.pdb
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\refint\Desafio1.dll
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.pdb
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\Desafio1.genruntimeconfig.cache
+C:\Users\maria\OneDrive\Área de Trabalho\IntermediariosPOO\Desafio1\obj\Debug\net9.0\ref\Desafio1.dll
