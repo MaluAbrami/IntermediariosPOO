@@ -59,4 +59,10 @@ public class Livro : Produto, Imposto
         else
             return Preco * 0.10;
     }
+
+    public override void ExibirInformacoes()
+    {
+        base.ExibirInformacoes();
+        Console.Write($", autor: {autor}, tema: {tema}, qtd. páginas: {qtdPag}");
+    }
 }

@@ -45,4 +45,10 @@ public abstract class Produto
                 qtd = value;
         }
     }
+
+    //Método Virtual para permitir que seja substituída na classe derivida(VideoGame e Livro)
+    public virtual void ExibirInformacoes()
+    {
+        Console.Write($"\nNome: {nome}, preço: R$ {preco}, quantidade: {qtd}");
+    }
 }

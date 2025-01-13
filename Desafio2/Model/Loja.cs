@@ -53,4 +53,9 @@ public class Loja
         get { return videoGames; }
         set { videoGames = value; }
     }
+
+    public void ListaLivros()
+    {
+        Console.WriteLine("");
+    }
 }

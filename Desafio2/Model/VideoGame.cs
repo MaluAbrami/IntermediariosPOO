@@ -46,4 +46,10 @@ public class VideoGame : Produto, Imposto
         else
             return Preco * 0.45;
     }
+
+    public override void ExibirInformacoes()
+    {
+        base.ExibirInformacoes();
+        Console.Write($", marca: {marca}, modelo: {modelo}, usado: {isUsado}");
+    }
 }
