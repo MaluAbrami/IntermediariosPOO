@@ -54,8 +54,44 @@ public class Loja
         set { videoGames = value; }
     }
 
+    public void AdicionarLivro(Livro livro)
+    {
+        livros.Add(livro);
+    }
+
+    public void AdicionarVideoGame(VideoGame videoGame)
+    {
+        videoGames.Add(videoGame);
+    }
+
     public void ListaLivros()
     {
-        Console.WriteLine("");
+        if(livros.Count() == 0)
+            Console.WriteLine("A loja não tem livros no seu estoque.");
+        else
+            foreach(Livro l in livros)
+                l.ExibirInformacoes();
+    }
+
+    public void ListaVideoGames()
+    {
+        if(videoGames.Count() == 0)
+            Console.WriteLine("A loja não tem videogames no seu estoque.");
+        else
+            foreach(VideoGame v in videoGames)
+                v.ExibirInformacoes();
+    }
+
+    public double calculaPatrimonio()
+    {
+        double patrimonioTotal = 0;
+
+        foreach(Livro l in livros)
+            patrimonioTotal += l.Preco;
+        
+        foreach(VideoGame v in videoGames)
+            patrimonioTotal += v.Preco;
+
+        return patrimonioTotal;
     }
 }
