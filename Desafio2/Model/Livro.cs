@@ -1,4 +1,4 @@
-public class Livro : Produto
+public class Livro : Produto, Imposto
 {
     private string autor;
     private string tema;
@@ -7,7 +7,12 @@ public class Livro : Produto
     public Livro() { }
 
     public Livro(string nome, double preco, int qtd, string autor, string tema, int qtdPag)
-        : base(nome, preco, qtd) { }
+        : base(nome, preco, qtd) 
+    {
+        Autor = autor;
+        Tema = tema;
+        QtdPag = qtdPag;
+    }
 
     public string Autor
     {
@@ -45,5 +50,13 @@ public class Livro : Produto
                     "A quantidade de páginas não pode ser menor ou igual a 0."
                 );
         }
+    }
+
+    public double calculaImposto()
+    {
+        if(tema == "educativo")
+            return 0;
+        else
+            return Preco * 0.10;
     }
 }

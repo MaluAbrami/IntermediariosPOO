@@ -1,4 +1,4 @@
-public class VideoGame : Produto
+public class VideoGame : Produto, Imposto
 {
     private string marca;
     private string modelo;
@@ -37,5 +37,13 @@ public class VideoGame : Produto
     {
         get { return isUsado; }
         set { isUsado = value; }
+    }
+
+    public double calculaImposto()
+    {
+        if(isUsado)
+            return Preco * 0.25;
+        else
+            return Preco * 0.45;
     }
 }
