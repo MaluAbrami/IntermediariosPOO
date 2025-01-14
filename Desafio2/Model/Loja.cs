@@ -34,6 +34,7 @@ public class Loja
         {
             if(!string.IsNullOrWhiteSpace(value))
             {
+                //Remove qualquer caractere que não seja um dígito do valor atribuído, utilizado para normalizar o cnpj
                 value = new string(value.Where(char.IsDigit).ToArray());
                 if(value.Length != 14)
                     throw new ArgumentException("Cnpj inválido.");
