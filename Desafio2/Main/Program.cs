@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Intrinsics;
 
 internal class Program
 {
@@ -21,11 +22,16 @@ internal class Program
         loja.AdicionarVideoGame(ps5Usado);
         loja.AdicionarVideoGame(xbox);
 
-        Console.WriteLine($"R$ {l1.calculaImposto()} de impostos sobre o livro {l1.Nome}");
-        Console.WriteLine($"R$ {l3.calculaImposto()}");
-
+        Console.WriteLine("\n-----------------------------------------------------------------------------------------------------------");
+        l1.calculaImposto();
+        l3.calculaImposto();
+        ps5.calculaImposto();
+        ps5Usado.calculaImposto();
+        Console.WriteLine("\n-----------------------------------------------------------------------------------------------------------");
         loja.ListaLivros();
+        Console.WriteLine("\n-----------------------------------------------------------------------------------------------------------");
         loja.ListaVideoGames();
+        Console.WriteLine("\n-----------------------------------------------------------------------------------------------------------");
         Console.WriteLine($"\nO patrimonio da loja: {loja.Nome} é de R$ {loja.calculaPatrimonio()}");
     }
 }
