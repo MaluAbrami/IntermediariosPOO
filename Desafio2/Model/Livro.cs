@@ -1,5 +1,6 @@
 public class Livro : Produto, Imposto
 {
+    private const int V = 0;
     private string autor;
     private string tema;
     private int qtdPag;
@@ -55,9 +56,15 @@ public class Livro : Produto, Imposto
     public double calculaImposto()
     {
         if(tema == "educativo")
+        {
+            Console.WriteLine($"Livro Educativo não tem imposto: {Nome}");
             return 0;
+        }
         else
+        {
+            Console.WriteLine($"R$ {Preco * 0.10} de impostos sobre o livro {Nome}");
             return Preco * 0.10;
+        }
     }
 
     public override void ExibirInformacoes()

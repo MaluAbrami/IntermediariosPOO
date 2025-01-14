@@ -49,6 +49,6 @@ public abstract class Produto
     //Método Virtual para permitir que seja substituída na classe derivida(VideoGame e Livro)
     public virtual void ExibirInformacoes()
     {
-        Console.Write($"\nNome: {nome}, preço: R$ {preco}, quantidade: {qtd}");
+        Console.Write($"\nNome: {nome}, preço: R$ {preco}, quantidade: {qtd} em estoque");
     }
 }

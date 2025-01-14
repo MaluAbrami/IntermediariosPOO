@@ -7,7 +7,12 @@ public class VideoGame : Produto, Imposto
     public VideoGame() { }
 
     public VideoGame(string nome, double preco, int qtd, string marca, string modelo, bool isUsado)
-        : base(nome, preco, qtd) { }
+        : base(nome, preco, qtd) 
+    { 
+        Marca = marca;
+        Modelo = modelo;
+        IsUsado = isUsado;
+    }
 
     public string Marca
     {
@@ -42,9 +47,15 @@ public class VideoGame : Produto, Imposto
     public double calculaImposto()
     {
         if(isUsado)
+        {
+            Console.WriteLine($"Imposto {Nome} {Modelo} usado, R$ {Preco * 0.25}");
             return Preco * 0.25;
+        }
         else
+        {
+            Console.WriteLine($"Imposto {Nome} {Modelo}, R$ {Preco * 0.45}");
             return Preco * 0.45;
+        }
     }
 
     public override void ExibirInformacoes()

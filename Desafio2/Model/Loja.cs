@@ -7,9 +7,12 @@ public class Loja
 
     public Loja() {}
 
-    public Loja(string nome, string cnpj, List<Livro> livros, List<VideoGame> videoGames)
+    public Loja(string nome, string cnpj)
     {
-
+        Nome = nome;
+        Cnpj = cnpj;
+        livros = new List<Livro>();
+        videoGames = new List<VideoGame>();
     }
 
     public string Nome
@@ -87,10 +90,10 @@ public class Loja
         double patrimonioTotal = 0;
 
         foreach(Livro l in livros)
-            patrimonioTotal += l.Preco;
+            patrimonioTotal += (l.Preco * l.Qtd);
         
         foreach(VideoGame v in videoGames)
-            patrimonioTotal += v.Preco;
+            patrimonioTotal += (v.Preco * v.Qtd);
 
         return patrimonioTotal;
     }

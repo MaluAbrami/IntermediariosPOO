@@ -1,0 +1,15 @@
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\bin\Debug\net9.0\Desafio6.exe
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\bin\Debug\net9.0\Desafio6.deps.json
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\bin\Debug\net9.0\Desafio6.runtimeconfig.json
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\bin\Debug\net9.0\Desafio6.dll
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\bin\Debug\net9.0\Desafio6.pdb
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.AssemblyInfoInputs.cache
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.AssemblyInfo.cs
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.csproj.CoreCompileInputs.cache
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.sourcelink.json
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.dll
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\refint\Desafio6.dll
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.pdb
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\Desafio6.genruntimeconfig.cache
+C:\Users\mzam\OneDrive - GFT Technologies SE\Desktop\IntermediariosPOO\Desafio6\obj\Debug\net9.0\ref\Desafio6.dll
